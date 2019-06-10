@@ -24,8 +24,8 @@
   }
   img {
     display: block;
-    max-width: 420px;
-    max-width: 280px;
+    width: 420px;
+    width: 280px;
   }
   
   body {
