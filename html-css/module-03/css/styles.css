@@ -1,9 +1,7 @@
 img {
-  img {
     display: block;
     max-width: 100%;
     height: auto;
- }
   }
   .visually-hidden:not(:focus):not(:active),
   input[type="checkbox"].visually-hidden,
