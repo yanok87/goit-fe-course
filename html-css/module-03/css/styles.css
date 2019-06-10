@@ -71,7 +71,7 @@
   text-align: right;
   }
   
-  a:hover, a:focus {
+  a:hover, a:focus, .load-more-button:hover {
     color: #03a9f4;
   }
   
@@ -121,6 +121,8 @@
     margin-right: auto;
     margin-bottom: 70px;
     padding: 20px 34px;
-    border: 1px solid #000;
+    border: 1px solid #626262;
+    color: #626262;
+    cursor: pointer;
   }
   
