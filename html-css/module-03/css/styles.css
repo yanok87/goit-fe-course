@@ -1,6 +1,6 @@
 img {
     display: block;
-    max-width: 100%;
+    max-width: 420px;
     height: auto;
   }
   .visually-hidden:not(:focus):not(:active),
