@@ -55,6 +55,12 @@
 
   .menu {
     list-style: none;
+    font-size: 0;
+  }
+
+  .menu li {
+    display: inline-block;
+    width: 142.5px;
   }
   
   .menu a {
