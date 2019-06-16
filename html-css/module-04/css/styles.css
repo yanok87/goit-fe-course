@@ -92,7 +92,7 @@ body {
     width: 160px;
     height: 7px;
     background-color: #1abc9c;
-    margin: 24px auto 92px auto;
+    margin: 24px auto 80px auto;
   }
   
   .products {
@@ -183,9 +183,10 @@ body {
   .news-title {
     font-size: 14px;
     text-align: left;
-    line-height: 24px;
+    line-height: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    margin-bottom: 2px;
   }
   
   .news-title::after {
