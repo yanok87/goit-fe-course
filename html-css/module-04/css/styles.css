@@ -2,7 +2,7 @@ body {
     max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
-    font-family: sans-serif;
+    color: #515151;
   }
   
   .visually-hidden:not(:focus):not(:active),
@@ -143,8 +143,6 @@ body {
   .product-price {
     width: 55px;
     background-color: #8c8c8c;
-    text-indent: 0px;
-
   }
   
   .product-item:hover .product-name
