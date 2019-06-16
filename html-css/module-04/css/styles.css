@@ -1,0 +1,215 @@
+body {
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'Playfair Display', serif;
+  }
+  
+  .visually-hidden:not(:focus):not(:active),
+    input[type="checkbox"].visually-hidden,
+    input[type="radio"].visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border:0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path:inset(100%);
+        clip: rect(0 0 0 0);
+        overflow:hidden;
+    }
+  
+  /* HEADER */
+   
+  header {
+    margin-bottom: 104px;
+  }
+    .logo {
+      float: left;
+      font-size: 22px;
+      line-height: 32px;
+      padding-top: 34px;
+      text-transform: uppercase;
+    } 
+   
+    .logo::first-letter {
+    color: #1abc9c;
+    }
+    
+    .menu {
+      float: right;
+      width: 388px;
+      padding: 40px 0 0 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    .menu li {
+      float: left;
+      text-transform: uppercase;
+    }
+    
+    .menu li:not(:last-child) {
+    margin-right: 26px;
+    }
+    .menu a {
+      text-decoration: none;
+      font-size: 12px;
+      color: #000;
+    }
+  
+    .menu a:hover {
+    color: #1abc9c;
+    }
+  
+  /* FEATURED PRODUCTS SECTION */
+  
+  
+  .featured-products, .latest-news {
+    text-align: center;
+    margin-bottom: 104px;
+  }
+  
+  .section-title {
+    text-transform: uppercase;
+    font-size: 34px;
+    width: 422px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 24px auto 92px auto;
+  }
+  
+  .products {
+    padding: 0;
+  }
+  
+  .product-item, .news-item {
+    float: left; 
+    list-style: none;
+  }
+  
+  .product-item:nth-child(-n+4) {
+      margin-bottom: 30px;
+  }
+  
+  .product-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .product-item img {
+    display: block;
+    background-color: #e9f0fd;
+    width: 255px;
+    height: 282px;
+  }
+  
+  .product-name {
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    height: 40px;
+    width: 200px;
+    background-color: #323232;
+    margin: 0;
+    text-indent: 14px;
+    text-align: left;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    height: 40px;
+    width: 55px;
+    background-color: #8c8c8c;
+    margin: 0;
+  }
+  
+  .product-item:hover .product-name
+   {
+    background-color: #1abc9c;
+  }
+  
+   .product-item:hover .product-price {
+    background-color: #7fd9c7;
+  }
+  
+  /* LATEST NEWS SECTION */
+  
+  .news {
+    padding: 0;
+    margin-bottom: 60px;
+  }
+  
+  .news-item {
+    width: 350px;
+  }
+  
+  .news-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .news-item img {
+    display: block;
+    width: 350px;
+    height: 262px;
+  }
+  
+  .news-title {
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+  }
+  
+  .news-title::after {
+    content: "";
+    display: block;
+    width: 134px;
+    height: 4px;
+    background-color: #1abc9c;
+    margin-top: 10px;
+  }
+  
+  .news-text {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  
+  .news-button {
+    display: block;
+    height: 50px;
+    width: 160px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 2px;
+    margin-right: auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+  }
+  
+  .news-button:hover {
+    background-color: #7fd9c7
+  }
+  
+   .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
