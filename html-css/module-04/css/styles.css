@@ -2,7 +2,7 @@ body {
     max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
-    font-family:'Playfair Display', serif;
+    font-family: sans-serif;
   }
   
   .visually-hidden:not(:focus):not(:active),
@@ -101,7 +101,7 @@ body {
       margin-bottom: 30px;
   }
   
-  .product-item:not(:last-child) {
+  .product-item:not(:nth-child(4n+1)) {
     margin-right: 30px;
   }
 
