@@ -25,19 +25,22 @@ body {
   header {
     margin-bottom: 104px;
   }
-    .logo {
+ .logo {
       float: left;
       font-size: 22px;
       line-height: 32px;
       padding-top: 34px;
       text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
     } 
    
-    .logo::first-letter {
+ .logo::first-letter {
     color: #1abc9c;
+    font-weight: 900;
     }
     
-    .menu {
+ .menu {
       float: right;
       width: 388px;
       padding: 40px 0 0 0;
@@ -45,21 +48,23 @@ body {
       list-style: none;
     }
     
-    .menu li {
+ .menu li {
       float: left;
       text-transform: uppercase;
     }
     
-    .menu li:not(:last-child) {
+ .menu li:not(:last-child) {
     margin-right: 26px;
     }
-    .menu a {
+ .menu a {
       text-decoration: none;
       font-size: 12px;
       color: #000;
+      font-family:'Open Sans', sans-serif;
+      font-weight: 700;
     }
   
-    .menu a:hover {
+ .menu a:hover {
     color: #1abc9c;
     }
   
@@ -77,6 +82,8 @@ body {
     width: 422px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
   } 
   
   .section-title::after {
@@ -98,11 +105,15 @@ body {
   }
   
   .product-item:nth-child(-n+4) {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .product-item {
+    margin-right: 30px;
   }
   
-  .product-item:not(:nth-child(4n+1)) {
-    margin-right: 30px;
+  .product-item:nth-child(4n+1) {
+    margin-right: 0px;
   }
 
   .product-item img {
@@ -112,9 +123,11 @@ body {
     height: 282px;
   }
   
-  .product-name {
+  .product-name, .product-price {
     font-size: 14px;
     line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: #fff;
     text-transform: uppercase;
     float: left;
@@ -128,16 +141,10 @@ body {
   }
   
   .product-price {
-    font-size: 14px;
-    line-height: 40px;
-    color: #fff;
-    text-transform: uppercase;
-    float: left;
-    display: block;
-    height: 40px;
     width: 55px;
     background-color: #8c8c8c;
-    margin: 0;
+    text-indent: 0px;
+
   }
   
   .product-item:hover .product-name
@@ -174,6 +181,8 @@ body {
     font-size: 14px;
     text-align: left;
     line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
   }
   
   .news-title::after {
@@ -189,6 +198,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .news-button {
@@ -202,6 +212,8 @@ body {
     color: #fff;
     font-size: 14px;
     line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
   }
   
   .news-button:hover {
