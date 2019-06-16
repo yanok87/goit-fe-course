@@ -80,8 +80,7 @@ body {
     text-transform: uppercase;
     font-size: 34px;
     width: 422px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
   } 
@@ -97,6 +96,7 @@ body {
   
   .products {
     padding: 0;
+    margin: 0;
   }
   
   .product-item, .news-item {
@@ -112,7 +112,7 @@ body {
     margin-right: 30px;
   }
   
-  .product-item:nth-child(4n+1) {
+  .product-item:nth-child(4n+0) {
     margin-right: 0px;
   }
 
@@ -159,6 +159,7 @@ body {
   .news {
     padding: 0;
     margin-bottom: 60px;
+    margin-top: 0;
   }
   
   .news-item {
