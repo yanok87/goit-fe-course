@@ -2,7 +2,7 @@ body {
     color: #515151;
   }
 
-  container {
+  .container {
     max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
@@ -38,6 +38,7 @@ body {
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
+      cursor: pointer;
     } 
    
  .logo::first-letter {
@@ -184,6 +185,7 @@ body {
     display: block;
     width: 350px;
     height: 262px;
+    margin-bottom: 16px;
   }
   
   .news-title {
@@ -201,7 +203,7 @@ body {
     width: 134px;
     height: 4px;
     background-color: #1abc9c;
-    margin-top: 10px;
+    margin-top: 16px;
   }
   
   .news-text {
@@ -227,6 +229,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-decoration: none;
+    cursor: pointer;
   }
   
   .news-button:hover {
