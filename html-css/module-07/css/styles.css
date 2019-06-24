@@ -301,7 +301,7 @@ footer {
     height: 66px;
     margin: 32px auto 0 auto;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.2s ease-in;
 }
 
 .contact-form input[type="button"]:hover {
