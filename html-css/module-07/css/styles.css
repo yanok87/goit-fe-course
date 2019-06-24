@@ -230,17 +230,20 @@ input[type="radio"].visually-hidden {
 
 /* CONTACT SECTION */
 
-footer {
+.contact-section {
     background-color: #222222;
     color: #fff;
     padding-top: 110px;
+    background-image: url(../images/Map\ Image.png);
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
 }
 
 .contact-form {
     padding-bottom: 110px;
-    background-image: url(../images/Map\ Image.png);
+    /* background-image: url(../images/Map\ Image.png);
     background-repeat: no-repeat;
-    background-position: 100% 90%;
+    background-position: 100% 90%; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -268,7 +271,7 @@ footer {
 }
 
 .contact-form input::placeholder,
-.contact-form input[type="button"],
+.contact-form button,
 .contact-form textarea::placeholder,
 .contact-form input::-webkit-input-placeholder {
     font-family: 'Montserrat', sans-serif;
@@ -278,7 +281,6 @@ footer {
     /* line-height: normal; */
     color: #cdcdcd;
     /* padding: 20px 20px 20px 0; */
-
 }
 
 
@@ -292,7 +294,7 @@ footer {
     padding: 20px;
 }
 
-.contact-form input[type="button"] {
+.contact-form button {
     font-size: 15px;
     margin: 0;
     background-color: #fed136;
@@ -304,7 +306,7 @@ footer {
     transition: 0.2s ease-in;
 }
 
-.contact-form input[type="button"]:hover {
+.contact-form button:hover {
     transform: scale(1.1);
     background-color: rgba(250, 215, 89, 0.829);
 }
