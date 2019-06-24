@@ -40,52 +40,64 @@ input[type="radio"].visually-hidden {
     font-style: normal;
     font-weight: 400;
     src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-         url('../fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-slab-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
-  }
- 
+        url('../fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/roboto-slab-v8-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+}
+
 /* montserrat-regular - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     src: local('Montserrat Regular'), local('Montserrat-Regular'),
-         url('../fonts/montserrat-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/montserrat-v13-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v13-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
 
-  }
-  /* montserrat-700 - latin */
-  @font-face {
+}
+
+/* montserrat-700 - latin */
+@font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     src: local('Montserrat Bold'), local('Montserrat-Bold'),
-         url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/montserrat-v13-latin-700.woff') format('woff'), /* Modern Browsers */
-  }
+        url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v13-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+}
 
-  @font-face {
+@font-face {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     src: local('Merriweather Regular'), local('Merriweather-Regular'),
-         url('../fonts/merriweather-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/merriweather-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-  }
-  /* merriweather-italic - latin */
-  @font-face {
+        url('../fonts/merriweather-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/merriweather-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+}
+
+/* merriweather-italic - latin */
+@font-face {
     font-family: 'Merriweather';
     font-style: italic;
     font-weight: 400;
     src: local('Merriweather Italic'), local('Merriweather-Italic'),
-         url('../fonts/merriweather-v20-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/merriweather-v20-latin-italic.woff') format('woff'), /* Modern Browsers */
-  }
+        url('../fonts/merriweather-v20-latin-italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/merriweather-v20-latin-italic.woff') format('woff'),
+        /* Modern Browsers */
+}
 
 /* HEADER */
 
 .container {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -165,14 +177,14 @@ input[type="radio"].visually-hidden {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-}  
+}
 
 .services-item {
     flex-basis: 290px;
     /* height: 126px; */
     padding-top: 100px;
     position: relative;
-} 
+}
 
 .services-item::before {
     content: "";
@@ -190,8 +202,7 @@ input[type="radio"].visually-hidden {
     top: 0;
     left: 50%;
     transform: translateX(-50%)
-    
-} 
+}
 
 .computer::before {
     background-image: url(../images/Icon-Laptop.png);
@@ -212,23 +223,28 @@ input[type="radio"].visually-hidden {
 .item-text {
     display: block;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 22px;
-    color: #999999; 
+    color: #999999;
 }
 
 /* CONTACT SECTION */
 
-.contact-form {
-    padding: 110px 0 210px;
+footer {
     background-color: #222222;
+    color: #fff;
+    padding-top: 110px;
+}
+
+.contact-form {
+    padding-bottom: 110px;
     background-image: url(../images/Map\ Image.png);
     background-repeat: no-repeat;
     background-position: 100% 90%;
-}
-
-.contact-form h2 {
-    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-area {
@@ -239,6 +255,7 @@ input[type="radio"].visually-hidden {
     justify-content: space-between;
     align-content: space-between;
     position: relative;
+    width: 100%;
 }
 
 .contact-form input {
@@ -251,8 +268,8 @@ input[type="radio"].visually-hidden {
 }
 
 .contact-form input::placeholder,
-.contact-form input[type="button"], 
-.contact-form  textarea::placeholder,
+.contact-form input[type="button"],
+.contact-form textarea::placeholder,
 .contact-form input::-webkit-input-placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -275,18 +292,21 @@ input[type="radio"].visually-hidden {
     padding: 20px;
 }
 
-.contact-form input[type="button"]{
+.contact-form input[type="button"] {
     font-size: 15px;
     margin: 0;
     background-color: #fed136;
     color: #fff;
     width: 240px;
     height: 66px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 150%);
+    margin: 32px auto 0 auto;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-form input[type="button"]:hover {
+    transform: scale(1.1);
+    background-color: rgba(250, 215, 89, 0.829);
 }
 
 .contact-form input[name="user_name"]:focus:valid,
