@@ -247,18 +247,23 @@ input[type="radio"].visually-hidden {
     border: none;
     border-radius: 3%;
     text-indent: 20px;
+    /* padding: 20px 20px 20px 0; */
 }
 
 .contact-form input::placeholder,
 .contact-form input[type="button"], 
-.contact-form textarea::placeholder {
+.contact-form  textarea::placeholder,
+.contact-form input::-webkit-input-placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    /* line-height: normal; */
     color: #cdcdcd;
-    padding: 20px 20px 20px 0;
+    /* padding: 20px 20px 20px 0; */
+
 }
+
 
 .contact-form textarea::placeholder {
     padding: 0;
@@ -284,14 +289,14 @@ input[type="radio"].visually-hidden {
     cursor: pointer;
 }
 
-.contact-form input[name="user_name"]:valid,
-.contact-form input[type="mail"]:valid,
-.contact-form textarea:valid {
+.contact-form input[name="user_name"]:focus:valid,
+.contact-form input[type="mail"]:focus:valid,
+.contact-form textarea:focus:valid {
     outline: 2px green solid;
 }
 
-.contact-form input[name="user_name"]:invalid,
-.contact-form input[type="email"]:invalid,
-.contact-form textarea:invalid {
+.contact-form input[name="user_name"]:focus:invalid,
+.contact-form input[type="email"]:focus:invalid,
+.contact-form textarea:focus:invalid {
     outline: 2px red solid;
 }
