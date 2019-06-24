@@ -292,6 +292,8 @@ input[type="radio"].visually-hidden {
     width: 454px;
     height: 212px;
     padding: 20px;
+    resize: none;
+    border-radius: 3%;
 }
 
 .contact-form button {
@@ -304,6 +306,8 @@ input[type="radio"].visually-hidden {
     margin: 32px auto 0 auto;
     cursor: pointer;
     transition: 0.2s ease-in;
+    border: none;
+    border-radius: 3%;
 }
 
 .contact-form button:hover {
