@@ -288,7 +288,7 @@ img {
     display: block;
     width: 34px;
     height: 34px;
-    background-image: url(images/icons/ALARM@1X.png);
+    background-image: url(/images/icons/ALARM@1X.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -298,37 +298,37 @@ img {
 } 
 
 .services-list__item--line-graph::before {
-    background-image: url(images/icons/LINE\ GRAPH@1X.png);
+    background-image: url(/images/icons/LINE\ GRAPH@1X.png);
 }
 
 .services-list__item--computer::before {
-    background-image: url(images/icons/COMPUTER\ @1X.png);
+    background-image: url(/images/icons/COMPUTER\ @1X.png);
 }
 
 .services-list__item--book::before {
-    background-image: url(images/icons/BOOK@1X.png);
+    background-image: url(/images/icons/BOOK@1X.png);
 }
 
 .services-list__item--home::before {
-    background-image: url(images/icons/HOME@1X.png);
+    background-image: url(/images/icons/HOME@1X.png);
 }
 
 .services-list__item--image::before {
-    background-image: url(images/icons/IMAGE@1X.png);
+    background-image: url(/images/icons/IMAGE@1X.png);
 }
 
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
     .services-list__item--alarm::before {
-        background-image: url(images/icons/ALARM@2X.png);
+        background-image: url(/images/icons/ALARM@2X.png);
     }
 
     .services-list__item--line-graph::before {
-        background-image: url(images/icons/LINE\ GRAPH@2X.png);
+        background-image: url(/images/icons/LINE\ GRAPH@2X.png);
     }
     
     .services-list__item--computer::before {
-        background-image: url(images/icons/COMPUTER\ @2X.png);
+        background-image: url(/images/icons/COMPUTER\ @2X.png);
     }
     
     .services-list__item--book::before {
@@ -336,11 +336,11 @@ img {
     }
     
     .services-list__item--home::before {
-        background-image: url(images/icons/HOME@2X.png);
+        background-image: url(/images/icons/HOME@2X.png);
     }
     
     .services-list__item--image::before {
-        background-image: url(images/icons/IMAGE@2X.png);
+        background-image: url(/images/icons/IMAGE@2X.png);
     } 
 }
 
