@@ -1,0 +1,19 @@
+.subscribe-button {
+    @extend %button;
+    background-color: $theme-color-blue;
+} 
+
+.welcome-section__button {
+    @extend %link;
+    @extend %button;
+    margin: 0 auto;
+    border: 2px $primary-white-color solid;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: $focus-color-pink; 
+        border: none;
+    }
+}

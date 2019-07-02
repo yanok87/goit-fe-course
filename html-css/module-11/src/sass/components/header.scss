@@ -1,0 +1,22 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 50px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-bottom: 200px;
+
+    &__logo {
+        @extend %link;
+        font-family: $main-font;
+        color: $primary-white-color;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+}

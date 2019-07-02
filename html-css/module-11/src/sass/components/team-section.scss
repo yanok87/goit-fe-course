@@ -1,0 +1,140 @@
+.section-title__presentation {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-family: $italic-font;
+
+    &--big{
+        @extend %big-font;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+}
+.team {
+    margin-bottom: 80px;
+
+    &__description {
+        @extend %description;
+        text-align: center;
+        margin: 0 auto 90px;
+        width: 940px;
+    }
+}
+
+.team-list {
+    @extend %list;
+}
+
+.team-member {
+    text-align: center;
+    position: relative;
+
+    &:hover > .team-member__image {
+        -webkit-transform: translate(-10px, -10px);
+            -ms-transform: translate(-10px, -10px);
+                transform: translate(-10px, -10px);
+    }
+
+    &:hover > .image-overlay {
+        opacity: 1;
+        -webkit-box-shadow: 10px 10px $theme-color-blue;
+                box-shadow: 10px 10px $theme-color-blue;
+        -webkit-transform: translate(-10px, -10px);
+            -ms-transform: translate(-10px, -10px);
+                transform: translate(-10px, -10px);
+        z-index: 1;
+    }
+
+    &__name {
+        @extend %name;
+    }
+
+    &__position {
+        @extend %description;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    &__image {
+        margin-bottom: 30px;
+        width: 380px;
+        height: 470px;
+        -webkit-transition: -webkit-transform 0.2s;
+        transition: -webkit-transform 0.2s;
+        -o-transition: transform 0.2s;
+        transition: transform 0.2s;
+        transition: transform 0.2s, -webkit-transform 0.2s;
+    }
+}
+
+// IMAGE OVERLAY
+
+.image-overlay {
+    opacity: 0; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 380px;
+    height: 470px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.753)), to(rgba(243,129,129, 0.75)));
+    background: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.753) 0%, rgba(243,129,129, 0.75) 100%);
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.753) 0%, rgba(243,129,129, 0.75) 100%);
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.753) 0%, rgba(243,129,129, 0.75) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition-property: display, opacity, -webkit-box-shadow, -webkit-transform;
+    transition-property: display, opacity, -webkit-box-shadow, -webkit-transform;
+    -o-transition-property: display, box-shadow, transform, opacity;
+    transition-property: display, box-shadow, transform, opacity;
+    transition-property: display, box-shadow, transform, opacity, -webkit-box-shadow, -webkit-transform;
+    -webkit-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+}
+  
+.icon-list {
+    @extend %list;
+     width: 227px;
+     height: 57px;
+
+     &__item {
+        height: 56px;
+        width: 56px;
+        background-color: $focus-color-yellow;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transition: background-color 0.2s ease-in;
+        -o-transition: background-color 0.2s ease-in;
+        transition: background-color 0.2s ease-in;
+        cursor: pointer;
+
+        & svg {
+            display: block;
+    width: 26px;
+    height: 100%;
+    fill: $focus-color-pink;
+    -webkit-transition: fill 0.3s;
+    -o-transition: fill 0.3s;
+    transition: fill 0.3s;
+        }
+    
+        &:hover, &:focus {
+           background-color: $focus-color-pink; 
+        }
+    
+        &:hover svg {
+            fill: $primary-white-color;
+         }
+    }
+ } 

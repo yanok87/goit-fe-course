@@ -1,0 +1,23 @@
+/*
+   Import partials below
+*/
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'normalize';
+@import 'helpers/extras';
+@import 'base';
+@import 'helpers/mixins';
+
+// IMPORT COMPONENTS
+
+@import 'components/container';
+@import 'components/wrapper';
+@import 'components/header';
+@import 'components/menu';
+@import 'components/welcome-section';
+@import 'components/services-section';
+@import 'components/team-section';
+@import 'components/footer';
+@import 'components/button';
+// @import 'components/';
+// @import 'components/';

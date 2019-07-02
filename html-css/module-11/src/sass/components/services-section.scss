@@ -1,0 +1,129 @@
+.services-section {
+  margin-bottom: 96px;
+}
+
+.section-title {
+  width: 318px;
+  margin: 0 auto 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 68px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+
+  &__presentation {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-family: $italic-font;
+
+    &--big {
+      @extend %big-font;
+      font-size: 30px;
+      line-height: 30px;
+      text-transform: uppercase;
+    }
+
+    &--big::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: $focus-color-pink;
+      margin: 40px auto 0px auto;
+    }
+  }
+}
+
+.services-list {
+  @extend %list;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &__item {
+    -ms-flex-preferred-size: 382px;
+    flex-basis: 382px;
+    padding-left: 80px;
+    position: relative;
+
+    &:not(:nth-last-of-type(-n + 3)) {
+      margin-bottom: 100px;
+    }
+
+    &--name {
+      @extend %name;
+    }
+
+    &--description {
+      @extend %description;
+    }
+
+    &::before {
+      @include pseudo;
+      width: 34px;
+      height: 34px;
+      background-image: url('../images/icons/ALARM@1X.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 4px;
+      left: 20px;
+    }
+
+    &--line-graph::before {
+      background-image: url('../images/icons/GRAPH@1X.png');
+    }
+
+    &--computer::before {
+      background-image: url('../images/icons/COMPUTER@1X.png');
+    }
+
+    &--book::before {
+      background-image: url('../images/icons/BOOK@1X.png');
+    }
+
+    &--home::before {
+      background-image: url('../images/icons/HOME@1X.png');
+    }
+
+    &--image::before {
+      background-image: url('../images/icons/IMAGE@1X.png');
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2),
+      (-o-min-device-pixel-ratio: 2/1),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      &--alarm::before {
+        background-image: url('../images/icons/ALARM@2X.png');
+      }
+
+      &--line-graph::before {
+        background-image: url('../images/icons/GRAPH@2X.png');
+      }
+
+      &--computer::before {
+        background-image: url('../images/icons/COMPUTER@2X.png');
+      }
+
+      &--book::before {
+        background-image: url('../images/icons/BOOK@2X.png');
+      }
+
+      &--home::before {
+        background-image: url('../images/icons/HOME@2X.png');
+      }
+
+      &--image::before {
+        background-image: url('../images/icons/IMAGE@2X.png');
+      }
+    }
+  }
+}
