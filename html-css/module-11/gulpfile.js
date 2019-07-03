@@ -20,7 +20,7 @@ const rename = require('gulp-rename');
 const server = require('browser-sync').create();
 
 function html() {
-  return src('src/*.html')
+  return src('src/index.html')
     .pipe(rigger())
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest('build'));

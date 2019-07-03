@@ -1,7 +1,6 @@
 .wrapper {
     max-width: 1920px;
-    height: 1000px;
-    margin-bottom: 50px;
+    padding-bottom: 150px;
     background: 
     -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.85)), to(rgba(243, 129, 129, 0.85))), 
     url('../images/team/banner-img@1X.png') no-repeat center;
@@ -14,6 +13,7 @@
     background: 
     linear-gradient(to top, rgba(252, 227, 138, 0.85) 0%, rgba(243, 129, 129, 0.85) 100%), 
     url('../images/team/banner-img@1X.png') no-repeat center;
+    background-size: cover;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .wrapper {
@@ -29,5 +29,6 @@
     background: 
     linear-gradient(to top, rgba(252, 227, 138, 0.85) 0%, rgba(243, 129, 129, 0.85) 100%),
     url('../images/team/banner-img@2X.png') no-repeat;
+    background-size: cover;
   }
 }

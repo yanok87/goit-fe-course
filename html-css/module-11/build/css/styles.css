@@ -477,9 +477,9 @@ img {
 
 .wrapper {
   max-width: 1920px;
-  height: 1000px;
-  margin-bottom: 50px;
+  padding-bottom: 150px;
   background: linear-gradient(to top, rgba(252, 227, 138, 0.85) 0%, rgba(243, 129, 129, 0.85) 100%), url("../images/team/banner-img@1X.png") no-repeat center;
+  background-size: cover;
 }
 
 .header {
@@ -538,7 +538,6 @@ img {
 
 .welcome-section {
   width: 820px;
-  height: 544px;
   margin: 0 auto;
   display: block;
   text-align: center;
@@ -561,6 +560,7 @@ img {
 
 .services-section {
   margin-bottom: 96px;
+  padding-top: 50px;
 }
 
 .section-title {
@@ -821,6 +821,7 @@ img {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .wrapper {
     background: linear-gradient(to top, rgba(252, 227, 138, 0.85) 0%, rgba(243, 129, 129, 0.85) 100%), url("../images/team/banner-img@2X.png") no-repeat;
+    background-size: cover;
   }
 
   .services-list__item--alarm::before {
