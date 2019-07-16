@@ -11,7 +11,6 @@
 
 const formatString = function (string) {
   if (string.length >= 40) {
-    console.log(string);
     const shortString = string.slice(0, 40);
     string = shortString + '...';
   }

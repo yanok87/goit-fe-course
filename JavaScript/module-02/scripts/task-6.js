@@ -8,13 +8,10 @@
 
 const checkForSpam = function (str) {
 
-  const words = str.split(' ');
-
-  for (const word of words) {
-    if (word.toLowerCase() === 'spam' || word.toLowerCase() === '[spam]' || word.toLowerCase() === 'sale') {
+    if (str.toLowerCase().includes("spam") ||
+    str.toLowerCase().includes("sale")) {
       return true;
     }
-  }
   return false;
 }
 
