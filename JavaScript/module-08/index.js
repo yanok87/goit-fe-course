@@ -53,15 +53,18 @@ const lightbox = document.querySelector('.lightbox');
 
 ul.addEventListener('click', handleClick);
 
+const lightboxImage = document.querySelector('.lightbox__image');
 
 function handleClick(event) {
   event.preventDefault();
+  if(event.target === event.currentTarget){
+    return;
+  }
   lightbox.classList.add('is-open');
-  const lightboxImage = document.querySelector('.lightbox__image');
 
   function showLightboxImage() {
-    lightboxImage.src = event.target.getAttribute(['data-source']);
-    lightboxImage.alt = event.target.getAttribute(['alt']);
+    lightboxImage.src = event.target.getAttribute('data-source');
+    lightboxImage.alt = event.target.getAttribute('alt');
   }
   showLightboxImage();
 }
@@ -76,6 +79,9 @@ const closeOnOverlay = document.querySelector('.lightbox__content');
 closeOnOverlay.addEventListener('click', closeLightbox);
 
 function closeLightbox() {
+  if(event.target === lightboxImage){
+    return;
+  }
   if (closeButton || closeOnOverlay) {
     lightbox.classList.remove('is-open');
     lightboxImage.src = event.target.removeAttribute(['data-source']);
