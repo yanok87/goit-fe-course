@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+    <style>
+      .cls-1 {
+        fill: #3664a2;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #44cd00;
+        fill-rule: evenodd;
+      }
+    </style>
+  
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #d60000;
+        fill-rule: evenodd;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#4d75a3"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="1800.69" y="4017.06" width="28.75" height="16.56" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs><symbol id="icon-facebook@1x" viewBox="0 0 42 42">
+  
+  <path id="Blue" class="cls-1" d="M1761.68,4046a2.322,2.322,0,0,0,2.32-2.32v-37.36a2.322,2.322,0,0,0-2.32-2.32h-37.36a2.322,2.322,0,0,0-2.32,2.32v37.36a2.322,2.322,0,0,0,2.32,2.32h37.36Z" transform="translate(-1722 -4004)"/>
+  <path id="Blue-2" data-name="Blue" class="cls-2" d="M1751,4046v-16.28h5.44l0.82-6.32H1751v-4.05c0-1.84.49-3.09,3.12-3.09l3.36,0.01v-5.68c-0.58-.07-2.58-0.23-4.89-0.23-4.84,0-8.15,2.94-8.15,8.36v4.68h-5.5v6.32h5.49V4046H1751Z" transform="translate(-1722 -4004)"/>
+</symbol><symbol id="icon-instagram@1x" viewBox="0 0 42 42">
+  <image id="Instagram-v051916" width="42" height="42" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAFH0lEQVQ4jYWUbYxcVRnHf+fl3jt35s7O7ux21m1ZXSgBlFag3Y0VW1MkTUT9YErAWFC/IBrBmmI0xjSa1KCJMSamYBtF/GDQxLQRI0ZREgSrqQXFrmCgL2zXpV22nc7SmZ3Z+3JezM74yZj4fDs5+f9O/v/neY7YfefLOCnIEn0/gnukd9dL7wMpQDlP5CyRtYTWExpPYB2B8YSFQ6UenWF0wWvK8LOSd4ciLDrsFWQV/USlne4JnEUrQdbJyZdW0Kt5HxgZS8k6ov/A1h6IhCKpx0TVCG98w6B2eKF2Ah/TlbfS+8tdsScUFukdS69cprFOsfHGIeqjMbGCAE/gHNp7lPWQO7JmzvJsi9W5nOEb14GQGKvudsjndLxafC7sGZR0vHlykQ99aopPPPo+gljw/8pZ+PNnnuXsj04zsmkCi1gz/4Auy96GOPIsnbzABz89xZ7D25n/0zlOHDyOahlCAVoIpPEIL1FSUbS7dIuLbN1/B9sfu42Sdsz94DS1myYoCjuuK3pVuXbKVeOWPYdv41/H5vjxjke5KhlheLjMaquD7TWRGAICNAmlyQZX37uZFx48iveW6cO303rqLLLVIa7GQkcYny1d5p0fGAcEs995jo1Biamt4/ROniMaU6y/dxe1rVN0Z99g7htPUluXcMs3P0xtOOS1fUeZunML49tGaT51nrA2jk7IKBcr1Krj/QTjTpdgLKD4+ymGr0nY8swXCeoVbN5mfPdmJh/cweyuh3lp5wHcvGJdY6SvK9U0gV0l9BkycSkVm1JSbgDFoJdbxFHO9LMP4TG8NPMQf5vYyz+m94Ey3PL8fvLnT+HOLVAZi/o6rRyBL9DeIMs2p0qXsk77l0m5TZS+wtS+bahawpk79uNfPE29Pon96wJnd34dWa2w8VsfR9FEFllfp1RBQI70Fl2L3yKoL5IkGwbQoSayNE9t2yS+yCmdP0ntvTfgixbBu6ZYfXkeV+TE05NoemiXD6CyQOsUhUEOjyxRG32TuNwd2K92SBpN7OlZRBAytCVGLfyG0uhlxNwzVDYHyCAke+F1NIP5XiuJRckcpXJktbpMtdaiVFoZBF5uU72+jPn1I7iVHvXHf0K8ZQOy+SLxTJ2J334X1y3oHjxCKagjfTFYEef61qUw6DhpEyTLBKrTvwvjK/i3C+gukn7ldsrffpraL4/jljvIkSqkXVp3fRLtL0FtEjLT1wlTILwZ7FRU7hCMdNF+cdDFmsJfOI+66d3YV0+Q7b0OufM+1LXT5K/+k+zoEcRiTnzrDCu/X0BWBqPIlS5K+n4MOiq1RbC+jLj4R7AQfuRLFLNPI5ZnCa6p4JpL+CMPk7fBZazlRTAxiTl1DNpXGPnygT4zPX4K3aji1rqvK5nVSYK8dA77q/tQH32M4Gu/w5/4PvgW8h0aNjlU1+JXHLarsJ0I3Rim8chewvffSvPzh7ALTYKbGzjjvA6qXNAVMabedjP+/E/xxyqI7d9DXLfrf/5R+r/O7a8eoPvDPxDdMIMpDF6EF0X6+Hs+q4eiQzIpQRjiO2cQ5fWIkU0QDIOXYDw+s/i0wHcMfjmlmL9M/pcz5Gcy7NgM2cooxoZYGX5BmCd3ISqVn4tKfNcalLAMrgfZMpgcjIEsx/dyaK/2ge5SSrGkMO0xbL6efHmItDVKXlR+4aXcPXAT6LtJ6g8QxfcIFV6LGlOIq8F7sKa/WaQp9FaR7R40UvRYjn/DYOYL66V53Uv/hPfiIMC/AcsoT1cc4isNAAAAAElFTkSuQmCC"/>
+</symbol><symbol id="icon-phone@1x" viewBox="0 0 23 31.97">
+  
+  <path class="cls-1" d="M1741,3779.52c-1.98,3.39-4.42,6.78-5.98,5.88-2.25-1.28-3.76-2.52-6.82,1.62s0.5,5.42,2.67,6.67c2.51,1.43,9.39-2.38,14.74-11.54s5.24-16.97,2.72-18.4c-2.17-1.25-5.07-3.66-7.16,1.04s-0.26,5.37,1.99,6.65C1744.73,3772.34,1742.98,3776.12,1741,3779.52Z" transform="translate(-1727 -3762)"/>
+</symbol><symbol id="icon-phone@2x" viewBox="0 0 23 31.97">
+  
+  <path class="cls-1" d="M1741,3779.52c-1.98,3.39-4.42,6.78-5.98,5.88-2.25-1.28-3.76-2.52-6.82,1.62s0.5,5.42,2.67,6.67c2.51,1.43,9.39-2.38,14.74-11.54s5.24-16.97,2.72-18.4c-2.17-1.25-5.07-3.66-7.16,1.04s-0.26,5.37,1.99,6.65C1744.73,3772.34,1742.98,3776.12,1741,3779.52Z" transform="translate(-1727 -3762)"/>
+</symbol><symbol id="icon-place@1x" viewBox="0 0 28 39">
+  
+  <path id="Shape_5_copy_2" data-name="Shape 5 copy 2" class="cls-1" d="M1739,3572a13.96,13.96,0,0,0-14,13.92c0,9,11.67,25.08,14,25.08s14-16.08,14-25.08A13.96,13.96,0,0,0,1739,3572Zm0,21.76a7.88,7.88,0,1,1,7.93-7.88A7.906,7.906,0,0,1,1739,3593.76Z" transform="translate(-1725 -3572)"/>
+</symbol><symbol id="icon-place@2x" viewBox="0 0 28 39">
+  
+  <path id="Shape_5_copy_2" data-name="Shape 5 copy 2" class="cls-1" d="M1739,3572a13.96,13.96,0,0,0-14,13.92c0,9,11.67,25.08,14,25.08s14-16.08,14-25.08A13.96,13.96,0,0,0,1739,3572Zm0,21.76a7.88,7.88,0,1,1,7.93-7.88A7.906,7.906,0,0,1,1739,3593.76Z" transform="translate(-1725 -3572)"/>
+</symbol><symbol id="icon-post@1x" viewBox="0 0 38 25">
+  
+  <path class="cls-1" d="M1741.05,3913.99h0.01a1.433,1.433,0,0,0,.79-0.23l0.07-.04a0.147,0.147,0,0,1,.04-0.02l0.72-.59,17.28-14.03a0.208,0.208,0,0,0-.16-0.08h-37.6a0.211,0.211,0,0,0-.13.05l18.08,14.65A1.427,1.427,0,0,0,1741.05,3913.99Zm-19.05-13v20.79l12.95-10.29Zm25.07,10.57,12.93,10.22v-20.72Zm-4.12,3.34a3.14,3.14,0,0,1-3.8,0l-2.96-2.41L1722,3923.76v0.04a0.2,0.2,0,0,0,.2.2h37.6a0.2,0.2,0,0,0,.2-0.2v-0.03l-14.17-11.21Z" transform="translate(-1722 -3899)"/>
+</symbol><symbol id="icon-post@2x" viewBox="0 0 38 25">
+  
+  <path class="cls-1" d="M1741.05,3913.99h0.01a1.433,1.433,0,0,0,.79-0.23l0.07-.04a0.147,0.147,0,0,1,.04-0.02l0.72-.59,17.28-14.03a0.208,0.208,0,0,0-.16-0.08h-37.6a0.211,0.211,0,0,0-.13.05l18.08,14.65A1.427,1.427,0,0,0,1741.05,3913.99Zm-19.05-13v20.79l12.95-10.29Zm25.07,10.57,12.93,10.22v-20.72Zm-4.12,3.34a3.14,3.14,0,0,1-3.8,0l-2.96-2.41L1722,3923.76v0.04a0.2,0.2,0,0,0,.2.2h37.6a0.2,0.2,0,0,0,.2-0.2v-0.03l-14.17-11.21Z" transform="translate(-1722 -3899)"/>
+</symbol><symbol id="icon-time@1x" viewBox="0 0 34 34">
+  
+  <path class="cls-1" d="M1741,3652a17,17,0,1,0,17,17A17,17,0,0,0,1741,3652Zm6.25,23.67-0.49.5a1.139,1.139,0,0,1-1.54.04l-6.41-5.6a2.539,2.539,0,0,1-.74-1.78l0.59-10.1a1.141,1.141,0,0,1,1.12-1.06h0.7a1.127,1.127,0,0,1,1.12,1.06l0.48,8.4a3.606,3.606,0,0,0,.76,1.86l4.46,5.14A1.139,1.139,0,0,1,1747.25,3675.67Z" transform="translate(-1724 -3652)"/>
+</symbol><symbol id="icon-time@2x" viewBox="0 0 34 34">
+  
+  <path class="cls-1" d="M1741,3652a17,17,0,1,0,17,17A17,17,0,0,0,1741,3652Zm6.25,23.67-0.49.5a1.139,1.139,0,0,1-1.54.04l-6.41-5.6a2.539,2.539,0,0,1-.74-1.78l0.59-10.1a1.141,1.141,0,0,1,1.12-1.06h0.7a1.127,1.127,0,0,1,1.12,1.06l0.48,8.4a3.606,3.606,0,0,0,.76,1.86l4.46,5.14A1.139,1.139,0,0,1,1747.25,3675.67Z" transform="translate(-1724 -3652)"/>
+</symbol><symbol id="icon-vk@1x" viewBox="0 0 42 42">
+  
+  <rect id="&#x424;&#x438;&#x433;&#x443;&#x440;&#x430;_3" data-name="&#x424;&#x438;&#x433;&#x443;&#x440;&#x430; 3" class="cls-1" width="42" height="42" rx="6.472" ry="6.472"/>
+  <path id="Shape_F_3_copy_3" data-name="Shape F_3 copy 3" class="cls-2" d="M1814.75,4033.43h1.72a1.426,1.426,0,0,0,.78-0.35,1.213,1.213,0,0,0,.24-0.75s-0.04-2.33,1.03-2.67,2.41,2.23,3.85,3.21a2.6,2.6,0,0,0,1.91.56h3.84s2.01-.15,1.05-1.73a12.428,12.428,0,0,0-2.85-3.3c-2.41-2.24-2.09-1.88.81-5.74,1.77-2.35,2.48-3.79,2.25-4.41-0.21-.58-1.49-0.48-1.49-0.48h-4.34a1.029,1.029,0,0,0-.55.11,1.2,1.2,0,0,0-.39.5,24.461,24.461,0,0,1-1.59,3.4c-1.93,3.27-2.7,3.44-3.01,3.24-0.73-.47-0.55-1.9-0.55-2.91,0-3.17.48-4.49-.93-4.83a7.082,7.082,0,0,0-2.02-.2,9.331,9.331,0,0,0-3.59.36c-0.49.24-.87,0.78-0.64,0.81a1.993,1.993,0,0,1,1.28.64,4.2,4.2,0,0,1,.42,1.96s0.26,3.73-.59,4.19c-0.58.32-1.38-.33-3.1-3.3a25.64,25.64,0,0,1-1.54-3.23,1.311,1.311,0,0,0-.36-0.48,1.719,1.719,0,0,0-.66-0.26h-4.11a1.37,1.37,0,0,0-.84.28,0.9,0.9,0,0,0-.02.73s3.22,7.58,6.86,11.37A9.963,9.963,0,0,0,1814.75,4033.43Z" transform="translate(-1794 -4004)"/>
+</symbol><symbol id="icon-youtube@1x" viewBox="0 0 57 40">
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="57" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAUCAYAAABxnDbHAAAB30lEQVRIib2WvWtTURjGf/d6NbY3knqrJbE0jVLSghaHLn4iQjcHhyKd+hfopJvu0smAVtrBdu3gLOrkB4oOdpB0MUi1EU1BGrTVmAT6vnLCbe1Q6Eki94GHA5f3PL97DpxzXodQX4cHLwFXgH6gC4iH7gBc4AC7ax0Q4A/wK/QPYBl42Jv/8MgkNKBfTmSngKsWoe3qft9i4ZqzfDx7CngTAXBTpz1RxiMEGo17ojoSMXTEE9GUdbnjVFDtbBOaclUJVMHGHWfO5Q9PTRedoLtgO2cHd7ui+KJgYwUSo6PpzMtX2cTtyc8kuj7azt3mTldUY6KKrY32eB49Y2OZvmfPB+I3by1pPP6piYyY2wwwZG5pv++Tmpg4lnzy9Kh//caSQN0mxxwZa+1U6ohQm59/vzYzk1TRfTZZTUG31+rGBt8fzOZXcrkerddP2qc0oFoDYjbFarbYwObmFkt3cgelWh1uBhaq5rzrz6wCgdUfBkFBKhVfqtXeFmCbKpvtLdtC66vlbBuwf1BVSsDAfwizVclcgwvA+QihC87rI+nInzb37LfiW1HutnCdteJ7hrfVrrxIpi8Cl4Eh4FDYnpijZFoXI/O67N1lFT/D0bQpv8P2xXxrtCsXVoqPAf4C7pqwu2MRPkgAAAAASUVORK5CYII="/>
+</symbol></svg>

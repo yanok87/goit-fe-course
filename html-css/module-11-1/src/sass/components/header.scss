@@ -1,0 +1,53 @@
+.top-box {
+    width: 100%;
+    border-bottom: 1px $border-color solid;
+    box-shadow: 0px 3px 24px 0px rgba(45, 58, 75, 0.16);
+
+}
+
+
+.header {
+    @extend %wrapper;
+    @extend %list;
+    align-items: center;
+}
+
+.logo {
+    @extend %link;
+    background: url('../images/logo.png') center no-repeat;   
+    background-size: contain;
+    width: 68px;
+    height: 40px;
+
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url('../images/logo2x.png');   
+        // background-size: contain;
+    }
+}
+
+.menu {
+    @extend %list;
+    flex-basis: 880px;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 20px;
+
+    &-item {
+        @extend %link;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 20px;
+
+        &:hover {
+            border-bottom: 2px solid $main-theme-color;
+        }
+
+        &:hover {
+            color: $main-theme-color;
+        }
+    }
+
+}
+
+  

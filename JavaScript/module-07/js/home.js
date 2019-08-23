@@ -1,14 +1,14 @@
 import quizData from './quiz-data.js';
 
-const questionObj = {
-  question: 'Что возвращает метод Array.prototype.filter()?',
-  choices: [
-    'Массив, если результат работы содержит более одного элемента',
-    'Один элемент, если только он прошел фильтрацию',
-    'Всегда массив',
-  ],
-  answer: 2,
-};
+// const questionObj = {
+//   question: 'Что возвращает метод Array.prototype.filter()?',
+//   choices: [
+//     'Массив, если результат работы содержит более одного элемента',
+//     'Один элемент, если только он прошел фильтрацию',
+//     'Всегда массив',
+//   ],
+//   answer: 2,
+// };
 
 const form = document.querySelector('form');
 form.className = 'form';

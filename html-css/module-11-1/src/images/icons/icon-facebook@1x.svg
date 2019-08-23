@@ -1,0 +1,19 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3664a2;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Blue" class="cls-1" d="M1761.68,4046a2.322,2.322,0,0,0,2.32-2.32v-37.36a2.322,2.322,0,0,0-2.32-2.32h-37.36a2.322,2.322,0,0,0-2.32,2.32v37.36a2.322,2.322,0,0,0,2.32,2.32h37.36Z" transform="translate(-1722 -4004)"/>
+  <path id="Blue-2" data-name="Blue" class="cls-2" d="M1751,4046v-16.28h5.44l0.82-6.32H1751v-4.05c0-1.84.49-3.09,3.12-3.09l3.36,0.01v-5.68c-0.58-.07-2.58-0.23-4.89-0.23-4.84,0-8.15,2.94-8.15,8.36v4.68h-5.5v6.32h5.49V4046H1751Z" transform="translate(-1722 -4004)"/>
+</svg>

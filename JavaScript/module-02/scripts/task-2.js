@@ -8,13 +8,14 @@
 const logItems = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
 
 for (let i = 0; i < logItems.length; i += 1) {
-  console.log(`${i} -`, logItems[i]);
+  console.log(`${i+1} -`, logItems[i]);
+
 }
 
 
 const logNumbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
 
-for (let i = 1; i < logNumbers.length; i += 1) {
-  console.log(`${i} -`, logNumbers[i]);
+for (let i = 0; i < logNumbers.length; i += 1) {
+  console.log(`${i+1} -`, logNumbers[i]);
 }
 

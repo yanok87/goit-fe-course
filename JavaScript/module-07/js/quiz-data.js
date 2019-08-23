@@ -53,5 +53,17 @@ export default {
       ],
       answer: 3,
     },
+    {
+      question: 'Какой командой будет запускаться npm-скрипт с именем server?',
+      choices: [
+        'npm server',
+        'npm start server',
+        'npm execute server',
+        'npm run server',
+        'npm run server',
+
+      ],
+      answer: 4,
+    },
   ],
 };

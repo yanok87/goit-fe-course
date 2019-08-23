@@ -141,7 +141,4 @@ console.log(getSortedUniqueSkills(users));
 
 // [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
 
-// var uniq = names.reduce(function(a,b){
-//   if (a.indexOf(b) < 0 ) a.push(b);
-//   return a;
-// },[]);
+

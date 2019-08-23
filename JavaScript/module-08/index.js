@@ -84,15 +84,15 @@ function closeLightbox() {
   }
   if (closeButton || closeOnOverlay) {
     lightbox.classList.remove('is-open');
-    lightboxImage.src = event.target.removeAttribute(['data-source']);
-    lightboxImage.alt = event.target.removeAttribute(['alt']);
+    lightboxImage.src = "";
+    lightboxImage.alt = "";
   }
 }
 
 window.addEventListener('keydown',function(event) {
   if (event.keyCode === 27) {
     lightbox.classList.remove('is-open');
-    lightboxImage.src = event.target.removeAttribute(['data-source']);
-    lightboxImage.alt = event.target.removeAttribute(['alt']);
+    lightboxImage.src = "";
+    lightboxImage.alt = "";
   }
 });
