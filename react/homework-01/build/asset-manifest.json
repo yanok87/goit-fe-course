@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goit-fe-course/react/homework-01/build/static/css/main.0b92f3c4.chunk.css",
-    "main.js": "/goit-fe-course/react/homework-01/build/static/js/main.c9d12525.chunk.js",
-    "main.js.map": "/goit-fe-course/react/homework-01/build/static/js/main.c9d12525.chunk.js.map",
+    "main.js": "/goit-fe-course/react/homework-01/build/static/js/main.b259ba2e.chunk.js",
+    "main.js.map": "/goit-fe-course/react/homework-01/build/static/js/main.b259ba2e.chunk.js.map",
     "runtime~main.js": "/goit-fe-course/react/homework-01/build/static/js/runtime~main.362d9cf5.js",
     "runtime~main.js.map": "/goit-fe-course/react/homework-01/build/static/js/runtime~main.362d9cf5.js.map",
     "static/js/2.7bd0273a.chunk.js": "/goit-fe-course/react/homework-01/build/static/js/2.7bd0273a.chunk.js",
     "static/js/2.7bd0273a.chunk.js.map": "/goit-fe-course/react/homework-01/build/static/js/2.7bd0273a.chunk.js.map",
     "index.html": "/goit-fe-course/react/homework-01/build/index.html",
-    "precache-manifest.0172839507ea779d369fc970facee317.js": "/goit-fe-course/react/homework-01/build/precache-manifest.0172839507ea779d369fc970facee317.js",
+    "precache-manifest.19fa9fcd79f5aed62226acd76febb09a.js": "/goit-fe-course/react/homework-01/build/precache-manifest.19fa9fcd79f5aed62226acd76febb09a.js",
     "service-worker.js": "/goit-fe-course/react/homework-01/build/service-worker.js",
     "static/css/main.0b92f3c4.chunk.css.map": "/goit-fe-course/react/homework-01/build/static/css/main.0b92f3c4.chunk.css.map"
   }
