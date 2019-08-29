@@ -8,34 +8,36 @@ import {
   StyledItem,
   StyledLabel,
   StyledPercentage,
-} from './Stats.styled.js';
+} from './Stats.styled';
 
 const Stats = ({ title, stats }) => (
-  <StyledSection class="stats-section">
-    {title && <StyledTitle class="title">Upload stats</StyledTitle>}
+  <StyledSection>
+    {title && <StyledTitle>Upload stats</StyledTitle>}
 
-    <StyledList class="stat-list">
-      {stats.map(stats => (
-        <StyledItem class="item" key={stats.id} bcgc={randomColor()}>
-          <StyledLabel class="label">{stats.label}</StyledLabel>
-          <StyledPercentage class="percentage">
-            {stats.percentage}%
-          </StyledPercentage>
+    <StyledList>
+      {stats.map(stat => (
+        <StyledItem key={stat.id} bcgc={randomColor()}>
+          <StyledLabel>{stat.label}</StyledLabel>
+          <StyledPercentage>{stat.percentage}%</StyledPercentage>
         </StyledItem>
       ))}
     </StyledList>
   </StyledSection>
 );
 
+Stats.defaultProps = {
+  title: 'Hi',
+};
+
 Stats.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string,
-      label: PropTypes.string,
-      percentage: PropTypes.number,
-    }).isRequired,
-  ),
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
 };
 
 export default Stats;

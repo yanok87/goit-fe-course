@@ -10,7 +10,7 @@ import {
   StyledItem,
   StyledLabel,
   StyledQuantity,
-} from './Profile.styled.js';
+} from './Profile.styled';
 
 const Profile = props => {
   const { user } = props;
@@ -18,26 +18,24 @@ const Profile = props => {
   return (
     <StyledProfile>
       <StyledDescription>
-        <StyledImg src={user.avatar} alt="user avatar" class="avatar" />
-        <StyledName class="name">{user.name}</StyledName>
-        <StyledTagLocation class="tag">{user.tag}</StyledTagLocation>
-        <StyledTagLocation class="location">{user.location}</StyledTagLocation>
+        <StyledImg src={user.avatar} alt="user avatar" />
+        <StyledName>{user.name}</StyledName>
+        <StyledTagLocation>{user.tag}</StyledTagLocation>
+        <StyledTagLocation>{user.location}</StyledTagLocation>
       </StyledDescription>
 
-      <StyledStats class="stats">
+      <StyledStats>
         <StyledItem>
-          <StyledLabel class="label">Followers</StyledLabel>
-          <StyledQuantity class="quantity">
-            {user.stats.followers}
-          </StyledQuantity>
+          <StyledLabel>Followers</StyledLabel>
+          <StyledQuantity>{user.stats.followers}</StyledQuantity>
         </StyledItem>
         <StyledItem>
-          <StyledLabel class="label">Views</StyledLabel>
-          <StyledQuantity class="quantity">{user.stats.views}</StyledQuantity>
+          <StyledLabel>Views</StyledLabel>
+          <StyledQuantity>{user.stats.views}</StyledQuantity>
         </StyledItem>
         <StyledItem>
-          <StyledLabel class="label">Likes</StyledLabel>
-          <StyledQuantity class="quantity">{user.stats.likes}</StyledQuantity>
+          <StyledLabel>Likes</StyledLabel>
+          <StyledQuantity>{user.stats.likes}</StyledQuantity>
         </StyledItem>
       </StyledStats>
     </StyledProfile>

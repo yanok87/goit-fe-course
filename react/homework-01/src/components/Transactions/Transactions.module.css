@@ -1,0 +1,25 @@
+.table {
+  width: 700px;
+  color: #828385;
+  margin: 0 auto 50px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.row {
+  height: 50px;
+  text-align: center;
+}
+.row:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+.heading {
+  composes: row;
+  background-color: #01bcd5;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.type {
+  text-transform: capitalize;
+}

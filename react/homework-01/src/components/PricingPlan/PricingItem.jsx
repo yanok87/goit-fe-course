@@ -12,7 +12,7 @@ const PricingItem = ({ label, icon, capacity, price, description }) => {
   }
   return (
     <div className={styles.item}>
-      <img className={styles.image} src={icon}></img>
+      <img className={styles.image} src={icon} alt=""></img>
       <h2 className={styles.label} style={{ color }}>
         {label}
       </h2>
