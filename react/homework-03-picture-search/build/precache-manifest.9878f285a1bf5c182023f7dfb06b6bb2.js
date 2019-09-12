@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "975ecddffbfde31e5fed09f359e76229",
+    "revision": "d7ff37051f1e865714d17fb7316a05f6",
     "url": "/goit-fe-course/react/homework-03-picture-search/build/index.html"
   },
   {
