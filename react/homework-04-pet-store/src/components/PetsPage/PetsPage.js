@@ -7,7 +7,7 @@ const PetsPage = () => {
   return (
     <ul className={styles.pets_list}>
       {pets.map(pet => (
-        <Link key={pet.id} to={`/pets/${pet.id}`}>
+        <Link className={styles.link} key={pet.id} to={`/pets/${pet.id}`}>
           <li className={styles.pet_card}>
             <img src={pet.image} alt="pet" />
             <p>{pet.name}</p>

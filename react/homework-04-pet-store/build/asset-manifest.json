@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react/homework-04-pet-store/build/static/css/main.f51ecebb.chunk.css",
-    "main.js": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.5adc718d.chunk.js",
-    "main.js.map": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.5adc718d.chunk.js.map",
+    "main.css": "/goit-fe-course/react/homework-04-pet-store/build/static/css/main.0a017e4e.chunk.css",
+    "main.js": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.8c3cb23d.chunk.js",
+    "main.js.map": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.8c3cb23d.chunk.js.map",
     "runtime~main.js": "/goit-fe-course/react/homework-04-pet-store/build/static/js/runtime~main.aedcfed5.js",
     "runtime~main.js.map": "/goit-fe-course/react/homework-04-pet-store/build/static/js/runtime~main.aedcfed5.js.map",
-    "static/js/2.fe78925d.chunk.js": "/goit-fe-course/react/homework-04-pet-store/build/static/js/2.fe78925d.chunk.js",
-    "static/js/2.fe78925d.chunk.js.map": "/goit-fe-course/react/homework-04-pet-store/build/static/js/2.fe78925d.chunk.js.map",
+    "static/js/2.a25e2deb.chunk.js": "/goit-fe-course/react/homework-04-pet-store/build/static/js/2.a25e2deb.chunk.js",
+    "static/js/2.a25e2deb.chunk.js.map": "/goit-fe-course/react/homework-04-pet-store/build/static/js/2.a25e2deb.chunk.js.map",
     "index.html": "/goit-fe-course/react/homework-04-pet-store/build/index.html",
-    "precache-manifest.c14a7fd21fd46027a45b2b8d7ae6a661.js": "/goit-fe-course/react/homework-04-pet-store/build/precache-manifest.c14a7fd21fd46027a45b2b8d7ae6a661.js",
+    "precache-manifest.9b16c9542e2a4418b0e055dab77dd9e1.js": "/goit-fe-course/react/homework-04-pet-store/build/precache-manifest.9b16c9542e2a4418b0e055dab77dd9e1.js",
     "service-worker.js": "/goit-fe-course/react/homework-04-pet-store/build/service-worker.js",
-    "static/css/main.f51ecebb.chunk.css.map": "/goit-fe-course/react/homework-04-pet-store/build/static/css/main.f51ecebb.chunk.css.map"
+    "static/css/main.0a017e4e.chunk.css.map": "/goit-fe-course/react/homework-04-pet-store/build/static/css/main.0a017e4e.chunk.css.map"
   }
 }

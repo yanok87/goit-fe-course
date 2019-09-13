@@ -9,10 +9,10 @@ const PetPage = props => {
   const pet = pets.find(el => el.id === props.match.params.id);
   return (
     <div>
-      <Link className={styles.button} to="/pets">
-        Back
-      </Link>
       <section className={styles.pet_container}>
+        <Link className={styles.button} to="/pets">
+          Back
+        </Link>
         <h2>About {pet.name}</h2>
         <div className={styles.description}>
           <img src={pet.image} alt="pet" className={styles.pet_image} />

@@ -2,11 +2,21 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .pet_card {
   width: 300px;
-  margin: 30px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+  box-shadow: 0 6px 28px 0 rgba(9, 23, 54, 0.2);
+  margin-bottom: 30px;
 }
