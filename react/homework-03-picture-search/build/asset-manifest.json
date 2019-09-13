@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.d49dfa4d.chunk.css",
+    "main.css": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.813d7060.chunk.css",
     "main.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.a49c8c47.chunk.js",
     "main.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.a49c8c47.chunk.js.map",
     "runtime~main.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/runtime~main.9f90a589.js",
@@ -8,8 +8,8 @@
     "static/js/2.2c589504.chunk.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.2c589504.chunk.js",
     "static/js/2.2c589504.chunk.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.2c589504.chunk.js.map",
     "index.html": "/goit-fe-course/react/homework-03-picture-search/build/index.html",
-    "precache-manifest.9878f285a1bf5c182023f7dfb06b6bb2.js": "/goit-fe-course/react/homework-03-picture-search/build/precache-manifest.9878f285a1bf5c182023f7dfb06b6bb2.js",
+    "precache-manifest.fdc46850562ba2ebf75a9129cd7ecd25.js": "/goit-fe-course/react/homework-03-picture-search/build/precache-manifest.fdc46850562ba2ebf75a9129cd7ecd25.js",
     "service-worker.js": "/goit-fe-course/react/homework-03-picture-search/build/service-worker.js",
-    "static/css/main.d49dfa4d.chunk.css.map": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.d49dfa4d.chunk.css.map"
+    "static/css/main.813d7060.chunk.css.map": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.813d7060.chunk.css.map"
   }
 }

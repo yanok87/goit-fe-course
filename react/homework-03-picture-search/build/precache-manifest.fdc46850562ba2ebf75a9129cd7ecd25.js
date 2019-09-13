@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7ff37051f1e865714d17fb7316a05f6",
+    "revision": "bbc586515aba9b6637742644a7631c13",
     "url": "/goit-fe-course/react/homework-03-picture-search/build/index.html"
   },
   {
-    "revision": "a9970f99ff658f2a434e",
-    "url": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.d49dfa4d.chunk.css"
+    "revision": "d7af110e1bdc33811f90",
+    "url": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.813d7060.chunk.css"
   },
   {
     "revision": "071f0a74c0a3f27a524c",
     "url": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.2c589504.chunk.js"
   },
   {
-    "revision": "a9970f99ff658f2a434e",
+    "revision": "d7af110e1bdc33811f90",
     "url": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.a49c8c47.chunk.js"
   },
   {
