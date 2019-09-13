@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react/homework-02/build/static/css/main.e2e03594.chunk.css",
-    "main.js": "/goit-fe-course/react/homework-02/build/static/js/main.9cb868b5.chunk.js",
-    "main.js.map": "/goit-fe-course/react/homework-02/build/static/js/main.9cb868b5.chunk.js.map",
-    "runtime~main.js": "/goit-fe-course/react/homework-02/build/static/js/runtime~main.a439d537.js",
-    "runtime~main.js.map": "/goit-fe-course/react/homework-02/build/static/js/runtime~main.a439d537.js.map",
-    "static/css/2.39017165.chunk.css": "/goit-fe-course/react/homework-02/build/static/css/2.39017165.chunk.css",
-    "static/js/2.06652662.chunk.js": "/goit-fe-course/react/homework-02/build/static/js/2.06652662.chunk.js",
-    "static/js/2.06652662.chunk.js.map": "/goit-fe-course/react/homework-02/build/static/js/2.06652662.chunk.js.map",
-    "index.html": "/goit-fe-course/react/homework-02/build/index.html",
-    "precache-manifest.3a4000200ed7e649412a724a9350e1ab.js": "/goit-fe-course/react/homework-02/build/precache-manifest.3a4000200ed7e649412a724a9350e1ab.js",
-    "service-worker.js": "/goit-fe-course/react/homework-02/build/service-worker.js",
-    "static/css/2.39017165.chunk.css.map": "/goit-fe-course/react/homework-02/build/static/css/2.39017165.chunk.css.map",
-    "static/css/main.e2e03594.chunk.css.map": "/goit-fe-course/react/homework-02/build/static/css/main.e2e03594.chunk.css.map"
+    "main.css": "/goit-fe-course/react/homework-03-bank-account/build/static/css/main.e2e03594.chunk.css",
+    "main.js": "/goit-fe-course/react/homework-03-bank-account/build/static/js/main.9cb868b5.chunk.js",
+    "main.js.map": "/goit-fe-course/react/homework-03-bank-account/build/static/js/main.9cb868b5.chunk.js.map",
+    "runtime~main.js": "/goit-fe-course/react/homework-03-bank-account/build/static/js/runtime~main.d884b047.js",
+    "runtime~main.js.map": "/goit-fe-course/react/homework-03-bank-account/build/static/js/runtime~main.d884b047.js.map",
+    "static/css/2.39017165.chunk.css": "/goit-fe-course/react/homework-03-bank-account/build/static/css/2.39017165.chunk.css",
+    "static/js/2.06652662.chunk.js": "/goit-fe-course/react/homework-03-bank-account/build/static/js/2.06652662.chunk.js",
+    "static/js/2.06652662.chunk.js.map": "/goit-fe-course/react/homework-03-bank-account/build/static/js/2.06652662.chunk.js.map",
+    "index.html": "/goit-fe-course/react/homework-03-bank-account/build/index.html",
+    "precache-manifest.9e1f668734af6f07d1f39fccdb7ef710.js": "/goit-fe-course/react/homework-03-bank-account/build/precache-manifest.9e1f668734af6f07d1f39fccdb7ef710.js",
+    "service-worker.js": "/goit-fe-course/react/homework-03-bank-account/build/service-worker.js",
+    "static/css/2.39017165.chunk.css.map": "/goit-fe-course/react/homework-03-bank-account/build/static/css/2.39017165.chunk.css.map",
+    "static/css/main.e2e03594.chunk.css.map": "/goit-fe-course/react/homework-03-bank-account/build/static/css/main.e2e03594.chunk.css.map"
   }
 }
