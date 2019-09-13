@@ -1,0 +1,12 @@
+.pets_list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.pet_card {
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+  text-decoration: none;
+}
