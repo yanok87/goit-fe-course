@@ -74,7 +74,6 @@ class App extends Component {
       pageNumber: prevState.pageNumber + incrementPageNumber,
     }));
     this.fetchingImg();
-    // start a function that re-renders amount of pages depending on the number we have
   };
 
   handleChangeInput = e => {
@@ -105,7 +104,6 @@ class App extends Component {
 
   render() {
     const { imagesArr, inputSearch, isModalOpen, largeImageURL } = this.state;
-    // console.dir(document.documentElement.scrollHeight);
     return (
       <>
         <div className="app">
