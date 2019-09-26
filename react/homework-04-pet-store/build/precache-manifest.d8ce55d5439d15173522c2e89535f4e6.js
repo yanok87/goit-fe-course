@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b0c70bff24ce3db5ff165a4db2d6544",
+    "revision": "93fbd4ed1fb0cd80aa79c70407c1dada",
     "url": "/goit-fe-course/react/homework-04-pet-store/build/index.html"
   },
   {
-    "revision": "fcde3bf9a8b0970292b6",
+    "revision": "0061d2ff99f06541d60c",
     "url": "/goit-fe-course/react/homework-04-pet-store/build/static/css/main.4be5db62.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goit-fe-course/react/homework-04-pet-store/build/static/js/2.a25e2deb.chunk.js"
   },
   {
-    "revision": "fcde3bf9a8b0970292b6",
-    "url": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.8c3cb23d.chunk.js"
+    "revision": "0061d2ff99f06541d60c",
+    "url": "/goit-fe-course/react/homework-04-pet-store/build/static/js/main.ef2f695d.chunk.js"
   },
   {
     "revision": "f3f06362ba56715a489b",

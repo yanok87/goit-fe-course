@@ -1,11 +1,11 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import pets from '../../pets.json';
 import styles from './PetPage.module.css';
 
 const PetPage = props => {
+  // eslint-disable-next-line react/prop-types
   const pet = pets.find(el => el.id === props.match.params.id);
   return (
     <div>
@@ -29,16 +29,16 @@ const PetPage = props => {
   );
 };
 
-// PetPage.propTypes = {
-//   pet: PropTypes.shape({
-//     name: PropTypes.string.isRequired,
-//     age: PropTypes.number.isRequired,
-//     color: PropTypes.string.isRequired,
-//     breed: PropTypes.string.isRequired,
-//     gender: PropTypes.string.isRequired,
-//     description: PropTypes.string.isRequired,
-//     image: PropTypes.string.isRequired,
-//   }).isRequired,
-// };
+PetPage.propTypes = {
+  pet: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+    color: PropTypes.string.isRequired,
+    breed: PropTypes.string.isRequired,
+    gender: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default PetPage;
