@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.813d7060.chunk.css",
-    "main.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.a49c8c47.chunk.js",
-    "main.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.a49c8c47.chunk.js.map",
+    "main.css": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.f0faa9d7.chunk.css",
+    "main.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.060bceba.chunk.js",
+    "main.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/main.060bceba.chunk.js.map",
     "runtime~main.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/runtime~main.9f90a589.js",
     "runtime~main.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/runtime~main.9f90a589.js.map",
-    "static/js/2.2c589504.chunk.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.2c589504.chunk.js",
-    "static/js/2.2c589504.chunk.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.2c589504.chunk.js.map",
+    "static/css/2.c37b5d79.chunk.css": "/goit-fe-course/react/homework-03-picture-search/build/static/css/2.c37b5d79.chunk.css",
+    "static/js/2.149f68d3.chunk.js": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.149f68d3.chunk.js",
+    "static/js/2.149f68d3.chunk.js.map": "/goit-fe-course/react/homework-03-picture-search/build/static/js/2.149f68d3.chunk.js.map",
     "index.html": "/goit-fe-course/react/homework-03-picture-search/build/index.html",
-    "precache-manifest.fdc46850562ba2ebf75a9129cd7ecd25.js": "/goit-fe-course/react/homework-03-picture-search/build/precache-manifest.fdc46850562ba2ebf75a9129cd7ecd25.js",
+    "precache-manifest.ddf9932852dfacf9dd26f0501dd06ce0.js": "/goit-fe-course/react/homework-03-picture-search/build/precache-manifest.ddf9932852dfacf9dd26f0501dd06ce0.js",
     "service-worker.js": "/goit-fe-course/react/homework-03-picture-search/build/service-worker.js",
-    "static/css/main.813d7060.chunk.css.map": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.813d7060.chunk.css.map"
+    "static/css/2.c37b5d79.chunk.css.map": "/goit-fe-course/react/homework-03-picture-search/build/static/css/2.c37b5d79.chunk.css.map",
+    "static/css/main.f0faa9d7.chunk.css.map": "/goit-fe-course/react/homework-03-picture-search/build/static/css/main.f0faa9d7.chunk.css.map"
   }
 }

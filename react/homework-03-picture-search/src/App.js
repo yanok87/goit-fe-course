@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { Component } from 'react';
 import './App.css';
 import Gallery from './components/Gallery/Gallery';
@@ -106,22 +107,27 @@ class App extends Component {
     const { imagesArr, inputSearch, isModalOpen, largeImageURL } = this.state;
     // console.dir(document.documentElement.scrollHeight);
     return (
-      <div className="app">
-        <SearchForm
-          onSubmitForm={this.onSubmitForm}
-          onChangeInput={this.handleChangeInput}
-          inputSearch={inputSearch}
-        />
-        {/* <SearchForm /> */}
-        <Gallery
-          imagesArr={imagesArr}
-          onClickBtn={this.changePageNumber}
-          openModal={this.openModalWindow}
-        />
-        {isModalOpen && (
-          <Modal largeURL={largeImageURL} closeModal={this.closeModalWindow} />
-        )}
-      </div>
+      <>
+        <div className="app">
+          <SearchForm
+            onSubmitForm={this.onSubmitForm}
+            onChangeInput={this.handleChangeInput}
+            inputSearch={inputSearch}
+          />
+
+          <Gallery
+            imagesArr={imagesArr}
+            onClickBtn={this.changePageNumber}
+            openModal={this.openModalWindow}
+          />
+          {isModalOpen && (
+            <Modal
+              largeURL={largeImageURL}
+              closeModal={this.closeModalWindow}
+            />
+          )}
+        </div>
+      </>
     );
   }
 }
